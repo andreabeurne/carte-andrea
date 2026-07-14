@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1a1a2e;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.card {
+    width: 420px;
+    min-height: 660px;
+    background: linear-gradient(160deg, #0d3d3a 0%, #1a5c52 30%, #0a2e2a 60%, #0d3d3a 100%);
+    border-radius: 24px;
+    padding: 32px 28px 28px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leaves-left {
+    position: absolute;
+    left: -10px;
+    top: 210px;
+    width: 90px;
+    height: 180px;
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+.glow-top-right {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, rgba(255, 220, 80, 0.26) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.photo-circle {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    border: 3px solid #a8d855;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #2a5a50;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.photo-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.header-text {
+    flex: 1;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.contactez-moi {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 6px;
+}
+
+.underline-yellow {
+    width: 80px;
+    height: 3px;
+    background: #c8e840;
+    border-radius: 2px;
+    margin: 0 auto 10px;
+}
+
+.votre {
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.alliee {
+    font-size: 19px;
+    font-weight: 900;
+    color: #a8d855;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.immobilier {
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 16px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 4px;
+    transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.contact-row:hover {
+    background: rgba(26, 92, 82, 0.08);
+    transform: translateX(2px);
+}
+
+.icon-circle {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #1a5c52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.icon-circle svg {
+    width: 17px;
+    height: 17px;
+    fill: white;
+}
+
+.phone-number {
+    font-size: 19px;
+    font-weight: 700;
+    color: #1a5c52;
+    letter-spacing: 0.5px;
+}
+
+.contact-text {
+    font-size: 13.5px;
+    color: #333;
+    font-weight: 500;
+}
+
+.citation {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 0 14px;
+}
+
+.citation-arrow {
+    color: #a8d855;
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+.citation-text {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.citation-highlight {
+    color: #a8d855;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-3g {
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.logo-immo {
+    color: #a8d855;
+}
+
+.footer-divider {
+    width: 1px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.footer-tagline {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.footer-tagline span {
+    font-weight: 700;
+    font-style: normal;
+}
