@@ -83,14 +83,14 @@ body {
 
 .contactez-moi {
     font-family: 'Dancing Script', cursive;
-    font-size: 28px;
+    font-size: 26px;
     color: #fff;
     line-height: 1.1;
     margin-bottom: 6px;
 }
 
 .underline-yellow {
-    width: 80px;
+    width: 70px;
     height: 3px;
     background: #c8e840;
     border-radius: 2px;
@@ -98,29 +98,30 @@ body {
 }
 
 .votre {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 700;
     color: #fff;
     line-height: 1;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
 }
 
 .alliee {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 900;
     color: #a8d855;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
 }
 
 .immobilier {
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 900;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     line-height: 1.2;
+    white-space: nowrap;
 }
 
 .contact-card {
@@ -270,4 +271,3 @@ body {
     font-weight: 700;
     font-style: normal;
 }
-Enregistre (Commit changes).
